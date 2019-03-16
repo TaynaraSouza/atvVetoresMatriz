@@ -1,0 +1,21 @@
+######################### EXERCICIO 01 ###############################
+nomes=["Maria","Joanne","Pedro","Marcos","Thais"] #Cria vetor com elementos
+
+escolha= input("Qual nome você procura?") #captura um valor no input e coloca o valor dentro de uma variavel
+
+if(escolha in nomes): #Condição , se o valor da variavel existe no vetor,, se verdadeira executa prox linha
+	print(escolha) # printa o valor escolhido 
+	else: #se falso
+	print("Este nome não está na lista!") #printa uma mensagem 
+
+
+#########################EXERCICIO 02 ###############################
+
+nome = ["Maria","Joanne","Pedro","Marcos","Thais"] #Cria um vetor com elementos
+
+for i in nome[::-1]: #Laço de Repetição, onde verificara todos os elementos do vetor, e inverte suas posições
+    print (i) #printa o vetor com valor invertido
+    
+#########################EXERCICIO 03 ###############################
+    
+    
